@@ -6,9 +6,9 @@ void setup() {
 
 void test1() {
   String[] byListe = {"Paris", "Budapest", "Skopje", "Rotterdam", "Valencia", "Vancouver", "Amsterdam", "Vienna", "Sydney", "New York City", "London", "Bangkok", "Hong Kong", "Dubai", "Rome", "Istanbul"};
-  String[] resultat = search(byListe, "R");
+  String[] result = search(byListe, "R");
 
-  if (resultat.length == 0) {
+  if (result.length == 0) {
     println("yaaaaa!");
   } else {
     println("NOOOOOOOOOOOOOOO!");
@@ -16,5 +16,6 @@ void test1() {
 }
 
 String[] search (String[] liste, String text) {
-  return null;
+  String[] result = {"hmmm..."};
+  return result;
 }
